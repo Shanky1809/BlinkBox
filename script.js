@@ -1,0 +1,1 @@
+console.log("BlinkBox - Your Gift is on the way!");
