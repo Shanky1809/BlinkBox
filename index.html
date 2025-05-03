@@ -1,0 +1,24 @@
+export default function Products() {
+  return (
+    <div className="p-10 text-center">
+      <h1 className="text-4xl font-bold text-blue-600">Our Products</h1>
+      <div className="mt-6 grid grid-cols-3 gap-6">
+        <div className="border p-6 rounded-lg shadow-lg">
+          <h2 className="text-2xl font-semibold">Flowers</h2>
+          <p className="mt-4">Freshly picked flowers for any occasion!</p>
+          <button className="mt-4 px-6 py-2 bg-pink-500 text-white rounded-full">Add to Cart</button>
+        </div>
+        <div className="border p-6 rounded-lg shadow-lg">
+          <h2 className="text-2xl font-semibold">Cakes</h2>
+          <p className="mt-4">Delicious cakes for every celebration!</p>
+          <button className="mt-4 px-6 py-2 bg-pink-500 text-white rounded-full">Add to Cart</button>
+        </div>
+        <div className="border p-6 rounded-lg shadow-lg">
+          <h2 className="text-2xl font-semibold">Gifts</h2>
+          <p className="mt-4">Perfect gifts for your loved ones.</p>
+          <button className="mt-4 px-6 py-2 bg-pink-500 text-white rounded-full">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  );
+}
